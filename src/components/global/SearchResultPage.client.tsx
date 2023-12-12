@@ -20,8 +20,8 @@ import {useCallback, useEffect, useState} from 'react';
 import MoneyPrice from '../product/money/Price.client';
 
 KlevuConfig.init({
-  url: 'https://eucs29.ksearchnet.com/cs/v2/search',
-  apiKey: 'klevu-165157725308815120',
+  url: '', // klevu url
+  apiKey: '', // api key
 });
 
 const manager = new FilterManager();
